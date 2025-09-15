@@ -1609,23 +1609,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {},
-    "E:\\Software Development\\Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\minit\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\DAT602-Assessment-One-Milestone-1\\TheRaze\\TheRaze\\TheRaze.csproj",
+      "projectUniqueName": "C:\\Users\\minit\\source\\repos\\DAT602-Assessment-One-Milestone-1\\TheRaze\\TheRaze\\TheRaze.csproj",
       "projectName": "TheRaze",
-      "projectPath": "C:\\Users\\Administrator\\source\\repos\\DAT602-Assessment-One-Milestone-1\\TheRaze\\TheRaze\\TheRaze.csproj",
-      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\source\\repos\\DAT602-Assessment-One-Milestone-1\\TheRaze\\TheRaze\\obj\\",
+      "projectPath": "C:\\Users\\minit\\source\\repos\\DAT602-Assessment-One-Milestone-1\\TheRaze\\TheRaze\\TheRaze.csproj",
+      "packagesPath": "C:\\Users\\minit\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\minit\\source\\repos\\DAT602-Assessment-One-Milestone-1\\TheRaze\\TheRaze\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "E:\\Software Development\\Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\minit\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1683,7 +1683,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\TheRaze",
+    "\\TheRaze\\TheRaze",
+    "\\TheRaze\\TheRaze\\Data"
   ],
-  "SelectedNode": "\\TheRaze.sln",
   "PreviewInSolutionExplorer": false
 }
