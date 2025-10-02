@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TheRaze")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0dc2da9e75b450c27bcac140314605936453cd9b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+050f49d795ce93ff587f766bd40da36fac7dec5c")]
 [assembly: System.Reflection.AssemblyProductAttribute("TheRaze")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TheRaze")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

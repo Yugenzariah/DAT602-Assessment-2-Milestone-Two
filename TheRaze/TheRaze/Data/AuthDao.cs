@@ -36,5 +36,14 @@ namespace TheRaze.Data
             cmd.Parameters.AddWithValue("@p_passwordhash", passwordHash);
             cmd.ExecuteNonQuery();
         }
+
+        public void DeleteOwnAccount(uint playerId)
+        {
+            using var cn = Db.GetOpenConnection();
+            using var cmd = new MySqlCommand("sp_admin_delete_player", cn);
+            cmd.CommandType = System.Data.CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@p_playerId", playerId);
+            cmd.ExecuteNonQuery();
+        }
     }
 }

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
@@ -42,50 +43,53 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(273, 9);
+            label1.Location = new Point(312, 12);
             label1.Name = "label1";
-            label1.Size = new Size(179, 25);
+            label1.Size = new Size(228, 32);
             label1.TabIndex = 0;
             label1.Text = "Login/Registration";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(240, 166);
+            label2.Location = new Point(274, 221);
             label2.Name = "label2";
-            label2.Size = new Size(60, 15);
+            label2.Size = new Size(75, 20);
             label2.TabIndex = 1;
             label2.Text = "Username";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(243, 220);
+            label3.Location = new Point(278, 293);
             label3.Name = "label3";
-            label3.Size = new Size(57, 15);
+            label3.Size = new Size(70, 20);
             label3.TabIndex = 2;
             label3.Text = "Password";
             // 
             // txtUsername
             // 
-            txtUsername.Location = new Point(306, 158);
+            txtUsername.Location = new Point(350, 211);
+            txtUsername.Margin = new Padding(3, 4, 3, 4);
             txtUsername.Name = "txtUsername";
-            txtUsername.Size = new Size(100, 23);
+            txtUsername.Size = new Size(114, 27);
             txtUsername.TabIndex = 3;
             // 
             // txtPassword
             // 
-            txtPassword.Location = new Point(306, 212);
+            txtPassword.Location = new Point(350, 283);
+            txtPassword.Margin = new Padding(3, 4, 3, 4);
             txtPassword.Name = "txtPassword";
             txtPassword.PasswordChar = '●';
-            txtPassword.Size = new Size(100, 23);
+            txtPassword.Size = new Size(114, 27);
             txtPassword.TabIndex = 4;
             // 
             // btnLogin
             // 
-            btnLogin.Location = new Point(286, 314);
+            btnLogin.Location = new Point(327, 419);
+            btnLogin.Margin = new Padding(3, 4, 3, 4);
             btnLogin.Name = "btnLogin";
-            btnLogin.Size = new Size(75, 23);
+            btnLogin.Size = new Size(86, 31);
             btnLogin.TabIndex = 5;
             btnLogin.Text = "Login";
             btnLogin.UseVisualStyleBackColor = true;
@@ -93,9 +97,10 @@
             // 
             // btnRegister
             // 
-            btnRegister.Location = new Point(377, 314);
+            btnRegister.Location = new Point(431, 419);
+            btnRegister.Margin = new Padding(3, 4, 3, 4);
             btnRegister.Name = "btnRegister";
-            btnRegister.Size = new Size(75, 23);
+            btnRegister.Size = new Size(86, 31);
             btnRegister.TabIndex = 6;
             btnRegister.Text = "Register";
             btnRegister.UseVisualStyleBackColor = true;
@@ -103,9 +108,10 @@
             // 
             // btnTestDb
             // 
-            btnTestDb.Location = new Point(214, 387);
+            btnTestDb.Location = new Point(245, 516);
+            btnTestDb.Margin = new Padding(3, 4, 3, 4);
             btnTestDb.Name = "btnTestDb";
-            btnTestDb.Size = new Size(75, 23);
+            btnTestDb.Size = new Size(86, 31);
             btnTestDb.TabIndex = 7;
             btnTestDb.Text = "Test";
             btnTestDb.UseVisualStyleBackColor = true;
@@ -113,9 +119,11 @@
             // 
             // LoginForm
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackgroundImageLayout = ImageLayout.Stretch;
+            ClientSize = new Size(914, 600);
             Controls.Add(btnTestDb);
             Controls.Add(btnRegister);
             Controls.Add(btnLogin);
@@ -124,6 +132,7 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "LoginForm";
             Text = "Login";
             ResumeLayout(false);

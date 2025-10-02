@@ -3,7 +3,9 @@
     "",
     "\\TheRaze",
     "\\TheRaze\\TheRaze",
-    "\\TheRaze\\TheRaze\\Data"
+    "\\TheRaze\\TheRaze\\Data",
+    "\\TheRaze\\TheRaze\\Forms",
+    "\\TheRaze\\TheRaze\\Utils"
   ],
   "PreviewInSolutionExplorer": false
 }
