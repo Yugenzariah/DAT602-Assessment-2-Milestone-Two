@@ -108,12 +108,12 @@
             // 
             // btnTestDb
             // 
-            btnTestDb.Location = new Point(245, 516);
+            btnTestDb.Location = new Point(12, 556);
             btnTestDb.Margin = new Padding(3, 4, 3, 4);
             btnTestDb.Name = "btnTestDb";
-            btnTestDb.Size = new Size(86, 31);
+            btnTestDb.Size = new Size(149, 31);
             btnTestDb.TabIndex = 7;
-            btnTestDb.Text = "Test";
+            btnTestDb.Text = "Test DB Connection";
             btnTestDb.UseVisualStyleBackColor = true;
             btnTestDb.Click += btnTestDb_Click;
             // 
