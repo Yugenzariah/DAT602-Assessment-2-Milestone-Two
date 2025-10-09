@@ -45,7 +45,7 @@ namespace TheRaze.Forms
             {
                 var u = txtU.Text.Trim();
                 var e1 = txtE.Text.Trim();
-                var p = txtP.Text; // prototype password
+                var p = txtP.Text;
                 var isAdmin = chkAdmin.Checked;
 
                 if (string.IsNullOrWhiteSpace(u) || string.IsNullOrWhiteSpace(e1) || string.IsNullOrEmpty(p))
@@ -74,7 +74,7 @@ namespace TheRaze.Forms
                 }
                 var u = txtU2.Text.Trim();
                 var e2 = txtE2.Text.Trim();
-                var p2 = txtP2.Text; // prototype password
+                var p2 = txtP2.Text;
                 var isAdmin = chkAdmin2.Checked;
                 var isLocked = chkLocked2.Checked;
 
